@@ -1,0 +1,44 @@
+h1 {
+    color: #e5ff00;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+body {
+    background: #000000c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    height: 30x;
+    width: 30px;
+}
+
+hr {
+    height: 3px;
+    border-width: 0;
+    background-color: #6b5906d8;
+    margin: 1rem, 1rem;
+
+}
+
+.container-canvas {
+    background: #4a752c;
+    /* padding: 0, 1rem, 1rem, 1rem; */
+    /* padding: 1rem; */
+    padding: 1rem;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+canvas {
+    border: 13px solid #4a752c;
+    width: 90vh;
+    height: 70vh;
+}
