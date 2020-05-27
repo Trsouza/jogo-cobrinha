@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 img {
@@ -37,8 +38,26 @@ hr {
     flex-direction: column;
 }
 
+.container-canvas span {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
 canvas {
     border: 13px solid #4a752c;
     width: 90vh;
     height: 70vh;
+}
+
+.alinhamentoCentro {
+    text-align: center
+}
+
+button {
+    background: #e5ff00;
+    border: #6b5906d8;
+    border-radius: 3px;
+    height: 1.5rem;
+    margin-right: 1rem;
 }
